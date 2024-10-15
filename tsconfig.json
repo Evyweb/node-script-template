@@ -14,11 +14,22 @@
     "sourceMap": true,
     "strict": true,
     "target": "es2022",
-    "types": ["vitest/globals"]
+    "types": [
+      "vitest/globals"
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
   },
+  "files": [
+    "global.d.ts"
+  ],
   "include": [
     "src/**/*.ts",
-    "specs/**/*.ts"
+    "specs/**/*.ts",
+    "./vitest.setup"
   ],
   "exclude": ["node_modules"]
 }

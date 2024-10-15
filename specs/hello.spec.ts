@@ -1,4 +1,4 @@
-import {hello} from "../src/hello";
+import {hello} from "@/hello";
 
 describe('[Hello World]', () => {
     it('should work', () => {
