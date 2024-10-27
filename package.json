@@ -15,7 +15,12 @@
     "test": "vitest run",
     "test:coverage": "vitest run --coverage"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "tsup",
+    "vitest",
+    "changesets"
+  ],
   "author": "Evyweb",
   "license": "MIT",
   "repository": {
